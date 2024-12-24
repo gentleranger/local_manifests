@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="gentleranger"
+        fetch="https://github.com/gentleranger"
+        revision="lineage-21" />
+
+    <project path="device/realme/r5x" name="android_device_realme_r5x" remote="gentleranger" depth="1" />
+    <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" remote="gentleranger" depth="1" />
+    <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="gentleranger" depth="1" />
+
+</manifest>
