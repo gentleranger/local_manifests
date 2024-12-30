@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="gentleranger"
+        fetch="https://github.com/gentleranger" />
+    
+    <remote name="spes-development"
+        fetch="https://github.com/spes-development" />
+    
+    <remote name="LineageOS"
+        fetch="https://github.com/LineageOS" />
+
+    <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="gentleranger" revision="lineage-21" depth="1" />
+    <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="spes-development" revision="14.0" depth="1" />
+    <project path="kernel/xiaomi/sm6225" name="kernel_xiaomi_sm6225" remote="spes-development" revision="NaughtySilver" depth="1" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" depth="1" />
+    
+</manifest>
